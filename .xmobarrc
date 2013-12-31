@@ -1,0 +1,16 @@
+Config { font = "xft:Inconsolata:size=16"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , position = Top
+       , border = NoBorder
+       , borderColor = "grey"
+       , lowerOnStart = True
+       , commands = [ Run Battery ["-t","<left>% ","-L","25","-H","75","-h","green","-n","yellow","-l","red"] 10
+                    , Run Date "%a %b %_d %Y %H:%M" "date" 10
+                    , Run StdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader% }{ <fc=#ee9a00>%date%</fc> | %battery%"
+       }
+
