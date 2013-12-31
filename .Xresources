@@ -1,0 +1,9 @@
+xterm*faceName: xft: Droid Sans Mono
+xterm*faceSize: 14
+xterm*saveLines: 2000
+xterm*foreground: white
+xterm*background: black
+xterm*cursorColor: rgb:80/00/00
+xterm*VT100.Translations: #override \
+  <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0) \n\
+  Ctrl <KeyPress> V: insert-selection(CLIPBOARD, CUT_BUFFER0, PRIMARY)
