@@ -1,5 +1,6 @@
 adoptopenjdk
 burp-suite
+eloston-chromium
 firefox
 flux
 ghidra
@@ -14,6 +15,7 @@ spotify
 vagrant
 virtualbox
 visual-studio-code
+vlc
 wireshark
 xquartz
 zotero
