@@ -1,6 +1,5 @@
 automake
 binutils
-binutils-amd64
 capstone
 coq
 elixir
