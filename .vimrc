@@ -9,3 +9,5 @@ set ruler
 highlight Comment ctermfg=green
 
 nnoremap : \
+
+map 9 $
