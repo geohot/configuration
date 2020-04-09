@@ -8,11 +8,13 @@ set hlsearch
 set ruler
 highlight Comment ctermfg=green
 
-nnoremap : ;
-
 map 9 $
+nnoremap \ :
 
 
-nnoremap <leader>v :hsplit<CR>
-nnoremap <leader>h :vsplit<CR>
+
+
+
+
+
 
