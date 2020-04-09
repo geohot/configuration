@@ -10,11 +10,3 @@ highlight Comment ctermfg=green
 
 map 9 $
 nnoremap \ :
-
-
-
-
-
-
-
-
