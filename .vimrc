@@ -8,3 +8,5 @@ set hlsearch
 set ruler
 highlight Comment ctermfg=green
 
+map 9 $
+nnoremap \ :
